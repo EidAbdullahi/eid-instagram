@@ -167,4 +167,4 @@ def is_liked(request):
     liked_images = Likes.objects.filter(user_id=id)
     mylist = [i.image_id for i in liked_images]
     print(mylist)
-    return HttpResponse(liked_images)
+    return HttpResponse(liked_images).
