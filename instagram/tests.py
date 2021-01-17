@@ -104,4 +104,4 @@ class CommentsTestClass(TestCase):
         self.assertTrue(len(comments) == 0)
 
     def tearDown(self):
-        Comments.objects.all().delete().
+        Comments.objects.all().delete()
