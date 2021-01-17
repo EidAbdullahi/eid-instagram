@@ -2,7 +2,8 @@ body {
     background-color: #f6f6f6;
 }
 .navbar {
-    background-color: #ffffff;
+    background-color: rgb(90, 72, 89);
+    color: #fff;
 }
 img .roundness {
     border-radius: 50% !important;

@@ -7,14 +7,19 @@
     <div class="row mt-5">
         <div class="col-md-6">
             <div class="frame">
-                <img src="/static/images/ig.png" alt="Handset Images">
+                <!-- <link rel="shortcut icon" href="/static/images/instagram.png" type="image/x-icon"> -->
+                <!-- <img src="/static/images/instagram.jpg" alt="Handset Images"> -->
+                
+                <img src="{% static 'images/instagram.jpg'%}" alt="Handset Images">
+                
+                
             </div>
         </div>
         <div class="col-md-6">
             <div>
                 <div class="section">
                     <div class="logo mb-5 mt-3">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2000px-Instagram_logo.svg.png" alt="" class="img-fluid" width="300">
+                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.technobezz.com%2Fhow-to-add-another-account-on-instagram%2F&psig=AOvVaw0zJ-ZvScTDblD7UnycyGY_&ust=1610957587408000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj_-anFou4CFQAAAAAdAAAAABAD" alt="" class="img-fluid" width="300">
                     </div>
                     <div class="centre">
                         {% if user.profile.photo %}
