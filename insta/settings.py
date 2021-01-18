@@ -167,4 +167,4 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 
 # Configure Django App for Heroku.
-django_heroku.settings(locals())
+django_heroku.settings(locals()
