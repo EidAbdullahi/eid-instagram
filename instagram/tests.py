@@ -97,11 +97,11 @@ class CommentsTestClass(TestCase):
         comments = Comments.objects.all()
         self.assertTrue(len(comments) > 0)
 
-    # def test_delete_comments(self):
-    #     self.comments.save_comment()
-    #     self.comments.delete_comment()
-    #     comments = Comments.objects.all()
-    #     self.assertTrue(len(comments) == 0)
+    def test_delete_comments(self):
+        self.comments.save_comment()
+        self.comments.delete_comment()
+        comments = Comments.objects.all()
+        self.assertTrue(len(comments) == 0)
 
     def tearDown(self):
         Comments.objects.all().delete()
