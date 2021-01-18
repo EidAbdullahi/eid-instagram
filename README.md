@@ -4,7 +4,7 @@
 Insta_Lite is a photo sharing app which allows users to assign filters to photos and share them with followers. ... 
 Insta_Liters can sync their photo sharing to other social networks,
 so Instagram photos can be posted directly to Facebook, Tumblr, Twitter, Flickr, and Foursquare.. 
-Visit the live site on https://eid-insta.herokuapp.com///
+Visit the live site on https://eid-insta.herokuapp.com/
 
 # Author
 Eid Abdullahi
@@ -35,7 +35,7 @@ pip
 Cloning
 In your terminal:
 
-  $ git clone https://github.com/EidAbdullahi/Insta.git
+  $ git clone https://github.com/EidAbdullahi/eid-instagram/tree/master
   $ cd insta
 
 #Running the Application
